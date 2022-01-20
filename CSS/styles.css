@@ -1,0 +1,73 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 12px;
+  text-decoration: none;
+  font-size: 20px;
+  top: 10%;
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(138, 136, 136, 0);
+}
+li a:hover{
+  color: blue;
+}
+
+.stred{
+  margin-right: 1350px;
+}
+
+body{
+  background-color: black;
+    background-image: url('Images/background.jpeg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+  height: 5000px;
+}
+    
+.twitter {
+    width: 30px;
+  height: auto;
+  position: fixed;
+  right:50px;
+  bottom: 4px;
+}
+  .twitch {
+    width: 30px;
+  height: auto;
+  position: fixed;
+  right:90px;
+  bottom: 4px;
+}
+.youtube {
+    width: 30px;
+  height: auto;
+  position: fixed;          
+  right:130px;
+  bottom: 4px;
+}
+.instagram {
+    width: 30px;
+  height: auto;
+  position: fixed;
+  right:10px;
+  bottom: 4px;
+}
+
+h1{
+  color:white;
+}
+p{
+color: whitesmoke;
+}

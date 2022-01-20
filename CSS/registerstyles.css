@@ -1,0 +1,135 @@
+body{
+    background-color: black;
+    background-image: url(Images/background.jpeg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+    
+  }
+
+  h1 {
+    color: black;
+    text-align: center;
+  }
+
+  .center{
+    position: absolute;
+    top: 35%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height:400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+  }
+
+  .mainpage{
+    position: fixed;
+    width: 120px;
+    height: auto;
+  }
+  .txt_field {
+    position: relative;
+    left: 15%;
+  }
+  .member{
+    position: relative;
+    left: 30%;
+    top: 20px;
+  }
+  .button{
+    display: block;
+    position: relative;
+    left: 22%;
+    top: 100px;
+    width: 220px;
+    height: 25px;
+    background-color: darkgray;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    background-color: rgb(31, 31, 31);
+    color: whitesmoke;
+  }
+  .button:hover{
+    background-color: rgb(48, 48, 48);
+  }
+
+  input[type=password] {
+    position: relative;
+    top: 65px;
+    box-sizing: border-box;
+    border: 0px solid rgba(204, 204, 204, 0);
+    border-radius: 4px;
+    border-width: 2px 20px;
+    border-bottom: red;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 20px;
+  }
+  input[type=password]:focus{
+    outline: none;
+    border-radius: 4px;
+    border-width: 2px 20px;
+    font-size: 20px;
+    border-bottom: green;
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgba(212, 212, 212, 0.233);
+  }
+
+  input[type=email] {
+    position: relative;
+    top: 45px;
+    box-sizing: border-box;
+    border: 0px solid rgba(204, 204, 204, 0);
+    border-radius: 4px;
+    border-width: 2px 20px;
+    border-bottom: red;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 20px;
+  }
+  input[type=email]:focus{
+    outline: none;
+    border-radius: 4px;
+    border-width: 2px 20px;
+    font-size: 20px;
+    border-bottom: green;
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgba(212, 212, 212, 0.233);
+  }
+
+  input[type=username] {
+    position: relative;
+    top: 25px;
+    box-sizing: border-box;
+    border: 0px solid rgba(204, 204, 204, 0);
+    border-radius: 4px;
+    border-width: 2px 20px;
+    border-bottom: red;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 20px;
+  }
+  input[type=username]:focus{
+    outline: none;
+    border-radius: 4px;
+    border-width: 2px 20px;
+    font-size: 20px;
+    border-bottom: green;
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgba(212, 212, 212, 0.233);
+  }
+
+  .member p{
+    position: relative;
+      font-weight: bold;
+      right: 3%;
+      top: 135px;
+  }
