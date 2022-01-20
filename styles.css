@@ -8,23 +8,20 @@ ul {
 li {
   float: left;
 }
-li a {
+.header li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 15px 12px;
+  padding: 14px 14px;
   text-decoration: none;
   font-size: 20px;
   top: 10%;
-  font-family: "Poppins", sans-serif;
-  background-color: rgba(138, 136, 136, 0);
 }
 li a:hover{
   color: blue;
 }
-
-.stred{
-  margin-right: 1350px;
+.header .active{
+  background-color: #04AA6D;
 }
 
 body{
@@ -34,6 +31,10 @@ body{
     background-attachment:fixed;
     background-size: cover;
   height: 5000px;
+  font-family: "Poppins", sans-serif;
+}
+head{
+  font-family: "Poppins", sans-serif;
 }
     
 .twitter {
