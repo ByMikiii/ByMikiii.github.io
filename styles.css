@@ -15,7 +15,6 @@ li {
   padding: 14px 14px;
   text-decoration: none;
   font-size: 20px;
-  top: 10%;
 }
 li a:hover{
   color: blue;
@@ -65,10 +64,15 @@ head{
   right:10px;
   bottom: 4px;
 }
-
 h1{
   color:white;
 }
 p{
 color: whitesmoke;
+}
+.logo{
+  height: 48px;
+    width: auto;
+    position: relative;
+    top: -12px;
 }

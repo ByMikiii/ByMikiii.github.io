@@ -112,3 +112,65 @@ input[type=password]:focus{
   position: relative;
   text-align: center;
 }
+
+.twitter {
+  width: 30px;
+height: auto;
+position: fixed;
+right:50px;
+bottom: 4px;
+}
+.twitch {
+  width: 30px;
+height: auto;
+position: fixed;
+right:90px;
+bottom: 4px;
+}
+.youtube {
+  width: 30px;
+height: auto;
+position: fixed;          
+right:130px;
+bottom: 4px;
+}
+.instagram {
+  width: 30px;
+height: auto;
+position: fixed;
+right:10px;
+bottom: 4px;
+}
+.logo{
+height: 48px;
+  width: auto;
+  position: relative;
+  top: -12px;
+}
+head{
+  font-family: "Poppins", sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+.header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 20px;
+}
+li a:hover{
+  color: blue;
+}
+.header .active{
+  background-color: rgba(128, 128, 128, 0.199);
+}
