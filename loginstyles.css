@@ -212,3 +212,18 @@ li a:hover{
   padding: 0;
   box-sizing: border-box;
 }
+
+.member a{
+  color: #00008b;
+  text-decoration: none;
+}
+.member a:hover{
+  text-decoration: underline;
+}
+.pass a{
+  color: #00008b;
+  text-decoration: none;
+}
+.pass a:hover{
+  text-decoration: underline;
+}
