@@ -34,7 +34,7 @@ body{
   .member {
     position: relative;
       font-weight: bold;
-      top: 180px;
+      top: 170px;
       text-align: center;
       color: rgb(63, 63, 63);
   }
@@ -42,7 +42,7 @@ body{
   position: relative;
   text-align: center;
   font-weight: bold;
-  top: 210px;
+  top: 205px;
   color: rgb(63, 63, 63);
 }
 input[type=username] {
