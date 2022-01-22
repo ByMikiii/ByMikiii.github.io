@@ -27,19 +27,9 @@
 
 <h1> Home </h1>
 
-<button type="button" id = "demo" id="demo" onclick="myFunction()">
+<button type="button" id = "demo" onclick="myFunction()">
 Click here!</button>
 <p>Number of clicks:</p><p id= "text"></p>
-
-<script>
-    document.getElementById("demo").onclick = function() {myFunction()};
-    let x = 0;
-    
-    function myFunction() {
-      x= x + 1;
-      document.getElementById("text").innerHTML = x;
-    }
-</script>
 
 <a href="https://twitter.com/ByMikiiii">
 <img src="Images/twitter.png" alt="Twitter" class="twitter"></a>
@@ -54,5 +44,7 @@ Click here!</button>
 <a href="https://www.twitch.tv/bymikiii">
 <img src="Images/twitch.png" alt="Twitch" class= twitch>
 </a>
+
+<script src="myScript.js"></script>
 </body>
 </html>
