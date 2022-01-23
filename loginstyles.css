@@ -1,82 +1,82 @@
-body{
-    background-color: black;
-    background-image: url(Images/background.jpeg);
-    background-repeat: no-repeat;
-    background-attachment:fixed;
-    background-size: cover;
-    font-family: "Poppins", sans-serif;
+body {
+  background-color: black;
+  background-image: url(Images/background.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
 }
-  h1 {
-    color: black;
-    position: relative;
-    text-align: center;
-    top: 5%;
-    font-weight: normal;
-    font-size: 35px;
-  }
+h1 {
+  color: black;
+  position: relative;
+  text-align: center;
+  top: 5%;
+  font-weight: normal;
+  font-size: 35px;
+}
 
-  .center{
-    position: absolute;
-    top: 35%;
-    left: 50%; 
-    transform: translate(-50%, -50%);
-    width: 400px;
-    height:350px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
-  }
-  .mainpage{
-    position: fixed;
-    width: 120px;
-    height: auto;
-  }
-  .member {
-    position: relative;
-      font-weight: bold;
-      top: 170px;
-      text-align: center;
-      color: rgb(63, 63, 63);
-  }
-.pass{
+.center {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 350px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+.mainpage {
+  position: fixed;
+  width: 120px;
+  height: auto;
+}
+.member {
+  position: relative;
+  font-weight: bold;
+  top: 170px;
+  text-align: center;
+  color: rgb(63, 63, 63);
+}
+.pass {
   position: relative;
   text-align: center;
   font-weight: bold;
   top: 205px;
   color: rgb(63, 63, 63);
 }
-input[type=username] {
+input[type="username"] {
   position: relative;
   top: 25px;
   box-sizing: border-box;
   border: 0px solid rgba(204, 204, 204, 0);
-  border-width: 1px ;
+  border-width: 1px;
   border-bottom: darkblue;
   font-size: 20px;
   border-style: solid;
 }
-input[type=username]:focus{
+input[type="username"]:focus {
   outline: none;
-  border-width: 1px ;
+  border-width: 1px;
   font-size: 20px;
   border-bottom: darkblue;
   border-style: solid;
   background-color: rgb(221, 221, 221);
 }
 
-input[type=password] {
+input[type="password"] {
   position: relative;
   top: 50px;
   box-sizing: border-box;
   border: 0px solid rgba(204, 204, 204, 0);
-  border-width: 1px ;
+  border-width: 1px;
   border-bottom: darkblue;
   border-style: solid;
   font-size: 20px;
 }
-input[type=password]:focus{
+input[type="password"]:focus {
   outline: none;
-  border-width: 1px ;
+  border-width: 1px;
   font-size: 20px;
   border-bottom: darkblue;
   border-style: solid;
@@ -92,39 +92,39 @@ input[type=password]:focus{
 
 .twitter {
   width: 30px;
-height: auto;
-position: fixed;
-right:50px;
-bottom: 4px;
+  height: auto;
+  position: fixed;
+  right: 50px;
+  bottom: 4px;
 }
 .twitch {
   width: 30px;
-height: auto;
-position: fixed;
-right:90px;
-bottom: 4px;
+  height: auto;
+  position: fixed;
+  right: 90px;
+  bottom: 4px;
 }
 .youtube {
   width: 30px;
-height: auto;
-position: fixed;          
-right:130px;
-bottom: 4px;
+  height: auto;
+  position: fixed;
+  right: 130px;
+  bottom: 4px;
 }
 .instagram {
   width: 30px;
-height: auto;
-position: fixed;
-right:10px;
-bottom: 4px;
+  height: auto;
+  position: fixed;
+  right: 10px;
+  bottom: 4px;
 }
-.logo{
-height: 48px;
+.logo {
+  height: 48px;
   width: auto;
   position: relative;
   top: -12px;
 }
-head{
+head {
   font-family: "Poppins", sans-serif;
 }
 ul {
@@ -145,10 +145,10 @@ li {
   text-decoration: none;
   font-size: 20px;
 }
-li a:hover{
+li a:hover {
   color: blue;
 }
-.header .active{
+.header .active {
   background-color: rgba(128, 128, 128, 0.199);
 }
 
@@ -170,12 +170,13 @@ li a:hover{
   left: 120px;
 }
 
-.btn::before, .btn::after {
+.btn::before,
+.btn::after {
   position: absolute;
   background: white;
   z-index: -1;
   transition: 1s;
-  content: '';
+  content: "";
 }
 .btn::before {
   height: 40px;
@@ -189,11 +190,11 @@ li a:hover{
 
 .noselect {
   -webkit-touch-callout: none;
-    -webkit-user-select: none;
-     -khtml-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .btn:hover::before {
@@ -209,23 +210,23 @@ li a:hover{
 .btn:hover {
   background: rgb(221, 221, 221);
 }
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.member a{
+.member a {
   color: #00008b;
   text-decoration: none;
 }
-.member a:hover{
+.member a:hover {
   text-decoration: underline;
 }
-.pass a{
+.pass a {
   color: #00008b;
   text-decoration: none;
 }
-.pass a:hover{
+.pass a:hover {
   text-decoration: underline;
 }
