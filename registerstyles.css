@@ -14,7 +14,6 @@ h1 {
   font-weight: normal;
   font-size: 35px;
 }
-
 .center {
   position: absolute;
   top: 35%;
@@ -100,14 +99,12 @@ input[type="password"]:focus {
   border-style: solid;
   background-color: rgb(221, 221, 221);
 }
-
 .txt_field {
   position: relative;
   text-align: center;
   position: relative;
   top: 30px;
 }
-
 .twitter {
   width: 30px;
   height: auto;
@@ -151,7 +148,6 @@ ul {
   padding: 0;
   overflow: hidden;
 }
-
 li {
   float: left;
 }
@@ -169,7 +165,6 @@ li a:hover {
 .header .active {
   background-color: rgba(128, 128, 128, 0.199);
 }
-
 .btn {
   width: 150px;
   height: 40px;
@@ -187,7 +182,6 @@ li a:hover {
   top: 140px;
   left: 120px;
 }
-
 .btn::before,
 .btn::after {
   position: absolute;
@@ -205,7 +199,6 @@ li a:hover {
   width: 150px;
   height: 30px;
 }
-
 .noselect {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -214,17 +207,14 @@ li a:hover {
   -ms-user-select: none;
   user-select: none;
 }
-
 .btn:hover::before {
   width: 0px;
   background: rgb(221, 221, 221);
 }
-
 .btn:hover::after {
   height: 0px;
   background: rgb(221, 221, 221);
 }
-
 .btn:hover {
   background: rgb(221, 221, 221);
 }
@@ -233,7 +223,6 @@ li a:hover {
   padding: 0;
   box-sizing: border-box;
 }
-
 .member a {
   color: #00008b;
   text-decoration: none;

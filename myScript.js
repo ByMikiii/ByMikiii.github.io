@@ -1,9 +1,9 @@
-
-    document.getElementById("demo").onclick = function() {myFunction()};
-    let x = 0;
+   var number = 0;
+   var pnumber = 0;
     
     function myFunction() {
-    var someVarName = localStorage.getItem(x);
-      x= x + 1;
-      document.getElementById("text").innerHTML = x;
+      localStorage.setItem(number, pnumber);
+      number+= 1; 
+      document.getElementById("text").innerHTML = number;
+      pnumber = localStorage.getItem(number);
     }
