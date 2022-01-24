@@ -4,7 +4,12 @@ ul {
   padding: 0;
   overflow: hidden;
 }
-
+.logo {
+  height: 48px;
+  width: auto;
+  position: relative;
+  top: -12px;
+}
 li {
   float: left;
 }
@@ -69,10 +74,4 @@ h1 {
 }
 p {
   color: whitesmoke;
-}
-.logo {
-  height: 48px;
-  width: auto;
-  position: relative;
-  top: -12px;
 }
