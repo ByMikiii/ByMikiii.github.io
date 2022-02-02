@@ -45,7 +45,7 @@ h1 {
   top: 205px;
   color: rgb(63, 63, 63);
 }
-input[type="username"] {
+input[name="username"] {
   position: relative;
   top: 25px;
   box-sizing: border-box;
@@ -55,7 +55,7 @@ input[type="username"] {
   font-size: 20px;
   border-style: solid;
 }
-input[type="username"]:focus {
+input[name="username"]:focus {
   outline: none;
   border-width: 1px;
   font-size: 20px;

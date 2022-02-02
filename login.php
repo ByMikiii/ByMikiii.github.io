@@ -19,7 +19,7 @@
     <li><a href="Contact.html">Contact</a></li>
     <li><a href="About.html">About</a></li>
     <li style="float:right"> <a href="Register.html">Register</a></li>
-    <li style="float:right"> <a href="Login.html" class="active">Login</a></li>
+    <li style="float:right"> <a href="Login.php">Login</a></li>
 </ul></div> 
 
 </head>
@@ -42,24 +42,26 @@
 <div class="center">
 
   <h1> Login </h1>
-  
-  <form action="" method="post">
+
+  <form method="POST" action = "login-script.php">
     
       <div class="txt_field">
-        <input type="username" 
+        <input type="text" 
         name="username" 
-        placeholder="Username">
+        placeholder="Username"
+        required>
     </div>
     <div class="txt_field">
         <input type="password" 
         name="password" 
-        placeholder="Password">
+        placeholder="Password"
+        required>
     </div>
   
     <div class="pass"> <a href="Login.html">Forgot Password?</a></div>
     
     <div class="btn">
-      <span class="noselect">Login</span>
+     <button type="submit">Login</button> 
     </div>
   
     <div class="member">
