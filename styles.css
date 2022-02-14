@@ -1,77 +1,51 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-.logo {
-  height: 48px;
-  width: auto;
-  position: relative;
-  top: -12px;
-}
-li {
-  float: left;
-}
-.header li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 14px;
-  text-decoration: none;
-  font-size: 20px;
-}
-li a:hover {
-  color: blue;
-}
-.header .active {
-  background-color: rgba(128, 128, 128, 0.199);
-}
-
 body {
-  background-color: black;
-  background-image: url("Images/background.jpeg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  height: 5000px;
-  font-family: "Poppins", sans-serif;
+  background-image: url("background.jpg");
 }
-head {
-  font-family: "Poppins", sans-serif;
+body h1 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 64px;
+  position: relative;
+  top: 220px;
+}
+.timer {
+  position: relative;
+  right: 620px;
+  text-align: center;
+  top: 100px;
 }
 
-.twitter {
-  width: 30px;
-  height: auto;
-  position: fixed;
-  right: 50px;
-  bottom: 4px;
+.timer_days {
+  font-size: 48px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: 150px;
+  left: 400px;
 }
-.twitch {
-  width: 30px;
-  height: auto;
-  position: fixed;
-  right: 90px;
-  bottom: 4px;
+.timer_hours {
+  font-size: 48px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: -54px;
+  left: 550px;
 }
-.youtube {
-  width: 30px;
-  height: auto;
-  position: fixed;
-  right: 130px;
-  bottom: 4px;
+.timer_minutes {
+  font-size: 48px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: -258px;
+  left: 700px;
 }
-.instagram {
-  width: 30px;
-  height: auto;
-  position: fixed;
-  right: 10px;
-  bottom: 4px;
+.timer_seconds {
+  font-size: 48px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: -462px;
+  left: 850px;
 }
-h1 {
-  color: white;
-}
-p {
-  color: whitesmoke;
+span {
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+  bottom: 60px;
 }
