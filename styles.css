@@ -1,0 +1,80 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.logo {
+  height: 48px;
+  width: auto;
+  position: relative;
+  top: -12px;
+}
+li {
+  float: left;
+}
+.header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 20px;
+}
+li a:hover {
+  color: blue;
+}
+.header .active {
+  background-color: rgba(128, 128, 128, 0.199);
+}
+
+body {
+  background-color: black;
+  background-image: url("Images/background.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 5000px;
+  font-family: "Poppins", sans-serif;
+}
+head {
+  font-family: "Poppins", sans-serif;
+}
+
+.twitter {
+  width: 30px;
+  height: auto;
+  position: fixed;
+  right: 50px;
+  bottom: 4px;
+}
+.twitch {
+  width: 30px;
+  height: auto;
+  position: fixed;
+  right: 90px;
+  bottom: 4px;
+}
+.youtube {
+  width: 30px;
+  height: auto;
+  position: fixed;
+  right: 130px;
+  bottom: 4px;
+}
+.instagram {
+  width: 30px;
+  height: auto;
+  position: fixed;
+  right: 10px;
+  bottom: 4px;
+}
+h1 {
+  color: white;
+}
+p {
+  color: whitesmoke;
+}
+.buttontext {
+  font-size: 18px;
+}
