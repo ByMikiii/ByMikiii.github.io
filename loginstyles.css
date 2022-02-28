@@ -45,7 +45,7 @@ h1 {
   top: 205px;
   color: rgb(63, 63, 63);
 }
-input[type="username"] {
+input[name="username"] {
   position: relative;
   top: 25px;
   box-sizing: border-box;
@@ -55,7 +55,7 @@ input[type="username"] {
   font-size: 20px;
   border-style: solid;
 }
-input[type="username"]:focus {
+input[name="username"]:focus {
   outline: none;
   border-width: 1px;
   font-size: 20px;
@@ -151,7 +151,11 @@ li a:hover {
 .header .active {
   background-color: rgba(128, 128, 128, 0.199);
 }
-
+button[type="submit"] {
+  border: rgba(63, 63, 63, 0);
+  background-color: rgba(63, 63, 63, 0);
+  font-size: 20px;
+}
 .btn {
   width: 150px;
   height: 40px;
